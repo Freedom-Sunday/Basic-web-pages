@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background: #e2ebf0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#logo-txt{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2ea1da;
+}
+
+#main-con{
+    background: linear-gradient(#e2ebf0, white);
+    /* height: 88vh; */
+    margin-top: 4%;
+}
+
+#container{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+#container div{
+    /* height: 100%; */
+    width: 50%;
+}
+
+#main-txt{
+    color: #2ea1da;
+    font-size: 300%;
+    font-weight: 900;
+    margin-top: 25%;
+}
+
+span{
+    color: #f7bb4e;
+}
+
+#twitter{
+    color: whitesmoke;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    color: #2ea1da;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 250%;
+}
+
+.container .row #about-box1{
+    background-color: #f1f6f8;
+}
+
+.container .row #about-box2{
+    background-color: #f1f6f8;
+}
+
+.box2{
+    background-image: url(./media/real-estate-img1-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#container2{
+    /* height: 50vh; */
+    margin-top: 5%;
+}
+
+.why{
+    display: flex;
+    justify-content: center;
+    color: #2ea1da;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 250%;
+}
+
+#contents{
+    height: 85rem;
+}
+
+.row div{
+    /* border: solid 1px blue; */
+    text-align: center;
+    border-radius: 10px;
+    height: 20rem;
+}
+
+#box3, #box6, #box7, #box10{
+    background-color: #f1f6f8;
+    margin-top: 1%;
+}
+
+.affordable{
+    padding-top: 15%;
+    font-size: 180%;
+    color: #2ea1da;
+}
+
+#box4{
+    /* background-color: yellow; */
+    background-image: url(./media/real-estate-img5.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 20rem; */
+}
+
+#box5{
+    /* background-color: yellow; */
+    background-image: url(./media/real-estate-img3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 20rem; */
+}
+
+#box8{
+    /* background-color: yellow; */
+    background-image: url(./media/real-estate-img4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 20rem; */
+}
+
+#box9{
+    /* background-color: yellow; */
+    background-image: url(./media/real-estate-img2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 20rem; */
+}
+
+.recent-text{
+    color: #2ea1da;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: 180%;
+}
+
+#recent-box1, #footer-boxes{
+    background-color:#f1f6f8;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+#footer-boxes{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    color: #2ea1da;
+}
+
+
+@media only screen and (max-width: 990px){
+    .box2{
+        display: none;
+    }
+
+    #main-con #container .box1{
+        width: 90%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    #main-con #container .box1 button{
+        margin-bottom: 2%;
+    }
+}
